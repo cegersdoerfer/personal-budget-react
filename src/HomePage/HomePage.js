@@ -1,4 +1,7 @@
 import React from 'react';
+import Chart1 from './chart1';
+import Chart2 from './chart2';
+import './HomePage.scss';
 
 function HomePage() {
   return (
@@ -65,15 +68,12 @@ function HomePage() {
     
             <article>
                 <h1>Chart</h1>
-                <p>
-                    <canvas id="myChart" width="400" height="400"></canvas>
-                </p>
+                <Chart1 />
             </article>
 
-            <article style={{width:50+"%", height: 30+"%"}}>
-                <h1>Chart</h1>
-                    <div id="myD3Chart" style={{width:600, height: 600}}>
-                    </div>
+            <article>
+                <h1>Chart 2</h1>
+                <Chart2 />
             </article>
 
         </div>

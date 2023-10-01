@@ -1,0 +1,50 @@
+h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+  }
+main {
+    padding: 40px;
+    width: 100%;
+}
+
+.page-area {
+    max-width: 768px;
+    display: inline-block;
+}
+
+.skip {
+    display: block;
+    line-height: 44px;
+    padding: 0 20px;
+    margin-top: -44px;
+}
+
+.skip:focus {
+    margin-top: 0;
+}
+
+.center {
+    text-align: center;
+}
+
+main article {
+    display: inline-block;
+    width: 100%;
+    max-width: 340px;
+    text-align: justify;
+    margin: 20px;
+}
+
+.accessText{
+    font-size: 1.3em;
+}
+
+.blueAlert {
+    color: blue;
+}
+
+@media screen and (min-width: 768px) {
+    main article {
+        margin: 10px;
+    }
+  }
